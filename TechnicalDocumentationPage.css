@@ -1,0 +1,133 @@
+html,
+body{
+     min-width: 298px;
+     color: #4d4e53;
+     background-color: #fff;
+     font-family: 'Open Sans', sans-serif;
+     line-height: 1.5;
+
+}
+#navbar{
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   width: 300px;
+   min-width: 290px;
+   height: 100%;
+   border-right: 5px solid #4d4e53;
+
+}
+header{
+    color: black;
+    margin: 10px;
+    
+    font-size: 1.8em;
+    text-align: center;
+
+}
+.main-section header{
+    text-align: left;
+    margin: 0px
+}
+
+#navbar ul{
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#navbar li{
+   
+    
+    border-top: 1px solid;
+    color: #4d4e53;
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+#navbar a{
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    padding: 10px 30px;
+    color: #4d4e53;
+
+}
+#main-doc{
+    margin-left: 310px;
+    margin-bottom: 110px;
+    padding: 20px;
+    position: absolute;
+}
+#main-doc article{
+    margin: 15px;
+    font-size: 0.96em;
+    color: #4d4e53;
+}
+.main-section{
+    margin: 15px;
+
+}
+.main-section header{
+    font-size: 1.6rem;
+
+    line-height: 1.6;
+}
+section li{
+    margin: 15px 0 0 20px;
+}
+code{
+   display: block;
+   position: relative;
+   white-space: pre;
+   background-color: #f7f7f7;
+   text-align: left;
+   border-radius: 5px;
+   word-wrap: normal;
+   word-break: normal;
+   margin: 10px;
+   padding:15px;
+   line-height: 2;
+
+}
+
+@media(max-width: 800px){
+    #navbar ul{
+        border: 1px solid black;
+        height: 207px;
+    }
+    #navbar{
+        
+        position: absolute;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        border: none;
+        z-index: 1;
+        width: 100%;
+        border-bottom: 2px solid;
+        max-height: 275px; 
+    }
+    #main-doc {
+        position: relative;
+        margin-left: 0px;
+        margin-top: 280px;
+      }
+}
+
+​@media(max-width: 450px){
+    #main-doc{
+        margin-left: -10px;
+    }
+    code{    
+    margin-left: -20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+    min-width: 233px;
+    text-align: left;
+  } 
+}
+
+
